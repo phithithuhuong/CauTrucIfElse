@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tínhgiáđiện</title>
+</head>
+<body>
+<script>
+    let nhap = +prompt('Nhập số kWh sử dụng:')
+    let bac1 = 1678, bac2 =1734, bac3 =2014, bac4 = 2536, bac5= 2834, bac6 =2927;
+    let so1=1,so2=1,so3=1,so4=1,so5=1,so6=1;
+    if (nhap<=50){
+       so1=(nhap*bac1)
+        alert('Gía tiền điện là:' + so1);
+    }else if (nhap<=100){
+        so2 = (nhap*bac2)
+        alert('Gía tiền điện là:' + so2);
+    }else if (nhap<=200) {
+        so3 = (nhap * bac3)
+        alert('Gía tiền điện là:' + so3);
+    }else if (nhap<=300) {
+        so4 = (nhap * bac4)
+        alert('Gía tiền điện là:' + so4);
+    }else if (nhap<=400) {
+        so5 = (nhap * bac5)
+        alert('Gía tiền điện là:' + so5);
+    }else if (nhap>=400) {
+        so6 = (nhap * bac6)
+        alert('Gía tiền điện là:' + so6);
+    }
+
+
+
+
+</script>
+
+</body>
+</html>
